@@ -1,0 +1,235 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-picture {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+.containerBox { 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+hr {
+    padding: 2px;
+    color: white;
+}
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.fontSize {
+    font-size: 60px;
+}
+.fontSizeHeaderTwo {
+    font-size: 30px;
+}
+
+.icon {
+    width: 25px;
+}
+.containerContact {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contactOne {
+    padding: 40px;
+    margin: 10px;
+    background-color: rgb(0, 0, 0, 0.6);
+    color: white;
+
+}
+.contactTwo {
+    padding: 20px;
+    width: 600px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    color: rgb(52, 52, 52);
+    border: 2px solid rgb(122, 121, 121);
+
+
+}
+.bg-testimonials {
+    background-image: url(fabric-2313919_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fs-footer {
+    font-size: 10px;
+}
+
+::after {
+    background: rgb(255, 255, 255, 0.5);
+}
+.aboutPicture {
+    filter: drop-shadow(8px 8px 4px grey);
+}
+
+
+@media all and (max-width: 900px) {
+    .fontSize {
+        font-size: 50px;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .fontSize {
+        font-size: 38px;
+    }
+    .fontSizeHeaderTwo {
+        font-size: 25px;
+    }
+    .icon-picture {
+        width: 38px;
+    }
+    .containerContact {
+        flex-direction: column;
+    }
+    .contactTwo {
+        width: 400px;
+        align-self: center;
+    }
+    
+}
+
+@media all and (max-width: 600px) {
+    .fontSize {
+        font-size: 30px;
+    }
+    .overlay {
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -70%);
+    }
+}
+
+@media all and (max-width: 500px) {
+    .fontSize {
+        font-size: 25px;
+    }
+    .fontSizeHeaderTwo {
+        font-size: 10px;
+    }
+    .icon-picture {
+        width: 30px;
+    }
+    .containerContact {
+        flex-direction: column;
+    }
+    .contactTwo {
+        width: 300px;
+        align-self: center;
+    }
+    .aboutPicture {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media all and (max-width: 392px) {
+    .overlay {
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -80%);
+    }
+    .fontSize {
+        font-size: 20px;
+    }
+    .icon-picture {
+        width: 20px;
+    }
+}
+
+@media all and (max-width: 323px) {
+    .overlay {
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -100%);
+    }
+    .fontSize {
+        font-size: 20px;
+    }
+    .fontSizeHeaderTwo {
+        font-size: 10px;
+    }
+    .icon-picture {
+        width: 19px;
+    }
+    .containerContact {
+        flex-direction: column;
+    }
+
+    .contactTwo {
+        width: 266px;
+        align-self: center;
+
+    }
+    .aboutPicture {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media all and (max-width: 310px) {
+    .overlay {
+        top: 110%;
+        left: 50%;
+        transform: translate(-50%, -110%);
+    }
+    .fontSize {
+        font-size: 15px;
+    }
+    .fontSizeHeaderTwo {
+        font-size: 8px;
+    }
+    .icon-picture {
+        width: 15px;
+    }
+    .contactTwo {
+        width: 250px;
+        align-self: center;
+    }
+}
+
+@media all and (max-width: 266px) {
+    .overlay {
+        top: 135%;
+        left: 50%;
+        transform: translate(-50%, -135%);
+    }
+    .fontSize {
+        font-size: 13px;
+    }
+    .fontSizeHeaderTwo {
+        font-size: 8px;
+    }
+    .icon-picture {
+        width: 13px;
+    }
+    .containerContact {
+        flex-direction: column;
+    }
+
+    .contactTwo {
+        width: 200px;
+        align-self: center;
+    }
+    .aboutPicture {
+        width: 100%;
+        height: 100%;
+    }
+    .header-picture {
+        height: 200px;
+    }
+}
